@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    padding: 40px 0;
+}
+h2 {
+    font-size: 28px;
+}
+h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+h3 {
+    margin-top: 5px;
+}
+span{
+    color: grey;
+}
+.container {
+    box-shadow: 0 0 20px grey;
+    width: 1160px;
+    margin: 0 auto ;   /* ustawia na środku !!!*/
+    background-color: white;
+}
+
+section,
+header {
+    padding: 10px 60px 20px 60px ;
+    background-color: white;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;  /*bardzo ważne na jednej lini wszystko*/
+    justify-content: space-between;
+    padding-top: 60px;
+}
+header ul {
+    list-style: none;
+}
+ li {
+    margin-bottom: 15px;
+}
+
+.address-icon {
+    width: 16px;
+    height: 16px;
+    background-color: cornflowerblue; /*bardzo waże żeby było widać przezroczyste ikonki ,,PNG" któe przyjmują background tła*/
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle; /* działa tylko dla elementów z dispay align,, bardzo ważne*/
+    border-radius: 50%;
+}
+.circle {
+    border-radius: 50%; /* MEGA!!! robi koło z kwadratu*/
+}
+.profile-picture{
+    width: 180px;
+    height: 180px;
+}
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;  /* bardzo ważne ustawia el po 50% następny przeskakuje do nowej lini ten co się nie mieści
+    */
+}
+.hobbies li {
+    width: 50%;  /* bardzo ważne elementy mają równą szerokość jak chcemy po 3 el. to robimy 33,3 % (kontenera itd) */
+    display: flex;
+    align-items: flex-start; /* ikonki wracają do rozmiarów ważne i są u góry*/
+    margin-bottom: 40px;
+}
+.hobbies div {
+    margin-left: 20px;
+}
+
+.hobbies p {
+    color: grey;
+    line-height: 1.5;  /* interlinie-- super się czyta*/
+}
+p {
+    line-height: 1.5;
+}
+.cv-download-link{
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;   /*pozbywa się podkreślenia*/
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s, color 0.5s;   /* mega zmienia kolor animacją*/
+    box-shadow: 0 0 10px blue;
+}
+.cv-download-link:hover {
+    color: white;
+    background-color: blue;
+}
+.cv-download-link:focus {
+    outline: none;   /*jak zmienia linki w przeglądarce tabem*/
+    color: white;
+    background-color: blue;
+}
+.cv-download-link:active{
+    text-decoration: underline;
+}
+.link {
+    text-decoration: none;
+    
+}
+.link:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    box-shadow: 0 0 10px blue;
+    transition: background-color 0.5s, color 0.5s;
+    
+
+}
+/* 
+poziom
+display: flex -- ustawia koło siebie
+justify-content- center ---- na srodku kontenera
+justify content: space-beetwen -- dobre 
+justify-content: space- around ----najlepsze i margin i pomiędzy i tylko jeśli element flex
+
+
+pion:
+align-items: center   --- na srodku
+align-items: flex-end   --do dolnej krawędzi
+align-items: flex-start  --do górnej krawędzi
+
+align-items:
+
+*/
+
+
+
+/* Iconmonstr.com  za darmo ikonki super !!!!*/ 
+
+
+/* <a href= "mailto:.... link do maila
+ <a href= "tel:....link do a --dzwoń */ 
+
+
+ /* gofile ---strona do dodawania plików np. CV w PDF */
+
+ /* netlify.com -------darmowe domeny w necie */
